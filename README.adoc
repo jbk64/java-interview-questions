@@ -1,4 +1,5 @@
 = Java Interview Questions
+:toc:
 
 == General Java Knowledge
 
@@ -9,7 +10,7 @@ Java refers to both a language and a software platform.
 
 Java is a general-purpose *programming language* that is *object-oriented* and specifically designed to have as few implementation dependencies as possible.
 
-It is intended to let developers "*write once, run anywhere*", meaning that compiled Java code can run on all platforms that support Java without the need for recompilation.
+It is intended to let developers "write once, run anywhere", meaning that compiled Java code can run on all platforms that support Java without the need for recompilation.
 
 The rules for writing a correct implementation of the Java language are defined in the link:https://docs.oracle.com/javase/specs/[Java Language Specification] (JLS).
 
@@ -20,7 +21,7 @@ Java also refers to a *set of specifications* that provide a system for developi
 
 image::https://i.imgur.com/7CaytcL.jpg[]
 
-Java is *not specific to any processor or operating system* as the Java platform has been implemented for a wide variety of hardware and operating systems.
+Java is not specific to any processor or operating system as the Java platform has been implemented for a wide variety of hardware and operating systems.
 
 Java is exists in 3 versions:
 
@@ -34,13 +35,13 @@ link:https://en.wikipedia.org/wiki/Java_(software_platform)[Java (Software platf
 
 The *Java Development Kit* is a tool kit that provides tools necessary to compile, document and package Java programs.
 
-The tools provided by the SDK include a *compiler* (`javac`), an *archiver* (`jar`), a *documentation generator* (`javadoc`) and other tools needed in Java development.
+The tools provided by the SDK include a compiler (`javac`), an archiver (`jar`), a documentation generator (`javadoc`) and other tools needed in Java development.
 
 The JRE is required to _develop_ Java programs.
 
 === What is the JRE?
 
-The *Java Runtime Environment* implements the *Java Virtual Machine* (JVM) and provides the *class libraries* and *other support files* required by the JVM to run Java programs.
+The *Java Runtime Environment* implements the Java Virtual Machine (JVM) and provides the class libraries and other support files required by the JVM to run Java programs.
 
 The JRE is required to _run_ Java programs.
 
@@ -62,7 +63,7 @@ Just-in-time compilation is a way of executing computer code that involves compi
 
 A systen that uses JIT-compilation typically continuously analyses the code being executed and identifies parts of the code where the speedup gained from compilation or recompilation would outweigh the overhead of compiling that code.
 
-It is a combination of the two traditional approaches to translation to machine code (*ahead-of-time compilation (AOT)* and *interpretation*) and combines some advantages and drawbacks of both.
+It is a combination of the two traditional approaches to translation to machine code (ahead-of-time compilation (AOT) and interpretation) and combines some advantages and drawbacks of both.
 
 link:https://en.wikipedia.org/wiki/Just-in-time_compilation[Just-in-time compilation]
 
@@ -70,4 +71,4 @@ link:https://en.wikipedia.org/wiki/Just-in-time_compilation[Just-in-time compila
 
 Java source code is written as human-readable code in .java files.
 
-The *source code is then converted to JVM bytecode* using `javac`, the Java compiler. This produces .class files, which contain machine-independent instructions. These files are then interpreted by the Java Virtual Machine at runtime when executing the program.
+The source code is then converted to JVM bytecode using `javac`, the Java compiler. This produces .class files, which contain machine-independent instructions. These files are then interpreted by the Java Virtual Machine at runtime when executing the program.
