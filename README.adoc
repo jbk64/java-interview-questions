@@ -58,7 +58,7 @@ link:https://en.wikipedia.org/wiki/Java_virtual_machine[Java virtual machine]
 
 === What is just-in-time compilation?
 
-Just-in-time compilation is a way of executing that involves compilation during runtime rather than prior to execution.
+Just-in-time compilation is a way of executing computer code that involves compilation during runtime rather than prior to execution.
 
 A systen that uses JIT-compilation typically continuously analyses the code being executed and identifies parts of the code where the speedup gained from compilation or recompilation would outweigh the overhead of compiling that code.
 
