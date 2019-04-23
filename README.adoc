@@ -32,7 +32,7 @@ link:https://en.wikipedia.org/wiki/Java_(software_platform)[Java (Software platf
 
 === What is the JDK?
 
-The *Java Development Kit* is a too kit that provides tools necessary to compile, document and package Java programs.
+The *Java Development Kit* is a tool kit that provides tools necessary to compile, document and package Java programs.
 
 The tools provided by the SDK include a *compiler* (`javac`), an *archiver* (`jar`), a *documentation generator* (`javadoc`) and other tools needed in Java development.
 
