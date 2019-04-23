@@ -1,5 +1,6 @@
 = Java Interview Questions
-:toc:
+:toc-title:
+:toc: right
 
 == General Java Knowledge
 
