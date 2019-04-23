@@ -1,8 +1,9 @@
 = Java Interview Questions
+:toc:
 :toc-title:
-:toc: right
+:toclevels: 4
 
-== General Java Knowledge
+== General java knowledge
 
 === What is Java?
 Java refers to both a language and a software platform.
@@ -62,7 +63,7 @@ link:https://en.wikipedia.org/wiki/Java_virtual_machine[Java virtual machine]
 
 Just-in-time compilation is a way of executing computer code that involves compilation during runtime rather than prior to execution.
 
-A systen that uses JIT-compilation typically continuously analyses the code being executed and identifies parts of the code where the speedup gained from compilation or recompilation would outweigh the overhead of compiling that code.
+A system that uses JIT-compilation typically continuously analyses the code being executed and identifies parts of the code where the speedup gained from compilation or recompilation would outweigh the overhead of compiling that code.
 
 It is a combination of the two traditional approaches to translation to machine code (ahead-of-time compilation (AOT) and interpretation) and combines some advantages and drawbacks of both.
 
@@ -73,3 +74,13 @@ link:https://en.wikipedia.org/wiki/Just-in-time_compilation[Just-in-time compila
 Java source code is written as human-readable code in .java files.
 
 The source code is then converted to JVM bytecode using `javac`, the Java compiler. This produces .class files, which contain machine-independent instructions. These files are then interpreted by the Java Virtual Machine at runtime when executing the program.
+
+== Backlog
+
+=== What are the differences between final, finally and finalize?
+
+=== Java Garbage Collector
+
+=== How does String concatenation act differently to using the StringBuilder class
+
+=== How do each type of Throwable behave?
