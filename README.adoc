@@ -75,49 +75,6 @@ Java source code is written as human-readable code in .java files.
 
 The source code is then converted to JVM bytecode using `javac`, the Java compiler. This produces .class files, which contain machine-independent instructions. These files are then interpreted by the Java Virtual Machine at runtime when executing the program.
 
-== Java EE
-
-=== What is Java EE?
-
-Java EE is short for Java Platform, Enterprise Edition.
-
-It is a community-driven set of specifications for building enterprise software. The specifications are developed using the Java Community Process, with contributions from industry experts, commercial and open source organizations, and countless individuals.
-
-The Java EE set of specifications extends Java SE with enterprise features such as distributed programming and web services.
-
-Java EE applications run on reference runtimes, that can be microservices or application servers, which handle transactions, security, scalability, concurrency and management of the deployed components.
-
-link:https://www.oracle.com/technetwork/java/javaee/overview/index.html[Java EE at a Glance]
-
-=== Java EE Specifications
-
-Java EE includes several specifications that extend the functionality of the base Java SE APIs.
-
-Here are a few examples.
-
-*Web specifications*:
-
-* Servlet: loq level API that defines how to manage HTTP requests. Many other APIs rely on it.
-* *WebSocket* defines a set of APIs to service WebSocket connections.
-* *Java Server Faces*, a technology for building user interfaces out of components.
-* *Unified Expression Language*, a simple language to bind JSF components to beans
-
-*Web service specifications*:
-
-* *JAX-RS* provides support in creating web services according to Representational State Transfer principles.
-* *JAX-WS* provides support in creating SOAP web services.
-* *JSON-P* Java API for Json Processing
-
-*Enterprise specifications*:
-
-* *Contexts and Dependency Injection* specifications to provide a dependency injection container, as in Spring,
-* *EJB* (Enterprise JavaBean) defines EJB containers that provide transactions (using JTA), RPC calls, concurrency control, dependency injection and access control for business objects.
-* *JPA* (Java Persistence API) are specifications about object-relational mapping between database tables and Java classes.
-* *JTA* (Java Transaction API) provides support for transactions,
-* *Java Message Service* provides a common way for Java programs to create, send, receive and read enterprise messaging system's messages.
-
-== Backlog
-
 === What are the differences between final, finally and finalize?
 
 `final` is used for read-only fields, classes that should not have subclasses, or methods that should not be overwritten.
@@ -143,7 +100,6 @@ You can make garbage collection happen on the spot by using the `System.gc` meth
 . it's costly
 . it doesn't trigger the GC immediately, it is just a hint for the JVM to start GC,
 . the JVM knows better when GC needs to happen.
-
 
 === Errors, Exceptions, Checked vs. Unchecked
 
@@ -201,3 +157,44 @@ test.append("add this to the string");
 ```
 
 On the other hand, if you do non-simple concatenations (like concatenating inside a loop), it is more efficient to use the StringBuilder.
+
+== Java EE
+
+=== What is Java EE?
+
+Java EE is short for Java Platform, Enterprise Edition.
+
+It is a community-driven set of specifications for building enterprise software. The specifications are developed using the Java Community Process, with contributions from industry experts, commercial and open source organizations, and countless individuals.
+
+The Java EE set of specifications extends Java SE with enterprise features such as distributed programming and web services.
+
+Java EE applications run on reference runtimes, that can be microservices or application servers, which handle transactions, security, scalability, concurrency and management of the deployed components.
+
+link:https://www.oracle.com/technetwork/java/javaee/overview/index.html[Java EE at a Glance]
+
+=== Java EE Specifications
+
+Java EE includes several specifications that extend the functionality of the base Java SE APIs.
+
+Here are a few examples.
+
+*Web specifications*:
+
+* Servlet: loq level API that defines how to manage HTTP requests. Many other APIs rely on it.
+* *WebSocket* defines a set of APIs to service WebSocket connections.
+* *Java Server Faces*, a technology for building user interfaces out of components.
+* *Unified Expression Language*, a simple language to bind JSF components to beans
+
+*Web service specifications*:
+
+* *JAX-RS* provides support in creating web services according to Representational State Transfer principles.
+* *JAX-WS* provides support in creating SOAP web services.
+* *JSON-P* Java API for Json Processing
+
+*Enterprise specifications*:
+
+* *Contexts and Dependency Injection* specifications to provide a dependency injection container, as in Spring,
+* *EJB* (Enterprise JavaBean) defines EJB containers that provide transactions (using JTA), RPC calls, concurrency control, dependency injection and access control for business objects.
+* *JPA* (Java Persistence API) are specifications about object-relational mapping between database tables and Java classes.
+* *JTA* (Java Transaction API) provides support for transactions,
+* *Java Message Service* provides a common way for Java programs to create, send, receive and read enterprise messaging system's messages.
