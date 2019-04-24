@@ -3,7 +3,7 @@
 :toc-title:
 :toclevels: 4
 
-== General java knowledge
+== Core Java knowledge
 
 === What is Java?
 Java refers to both a language and a software platform.
@@ -83,7 +83,7 @@ The source code is then converted to JVM bytecode using `javac`, the Java compil
 
 `finalize` is called by the garbage collector on an object when it has determined that there are not more references to it. In most code, it should not be used. `finalize` is deprecated starting with Java 9, and will eventually be removed.
 
-=== Java Garbage Collector
+=== What is the garbage collector?
 
 The garbage collector (GC) is an automatic internal process implemented inside the JVM that handles objects at the end of their lifecycle.
 
